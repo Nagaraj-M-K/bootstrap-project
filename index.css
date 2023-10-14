@@ -1,0 +1,111 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 150% 150%;
+  animation: gradient-animation 18s ease infinite;
+  margin-bottom: 0%;
+  padding-bottom: 0%;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+}
+.display-5{
+  font-size: 2em;
+}
+.row{
+  padding-left: 10%;
+  
+  
+ 
+}
+.my{
+  background-color: #020202;
+  border: #020202;
+}
+.text-bg-primary{
+  background-color: #020202 !important;
+  border-color: #020202 !important;
+}
+.border-primary{
+  border-color: #020202 !important;
+}
+.btn-outline-primary{
+  border-color: black;
+  color: #020202;
+}
+.footon{
+  width: 100%;
+  height: 100%;
+  
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 200% 100%;
+  animation: gradient-animation 18s ease infinite;
+  font-weight: 300;
+
+}
+.link-secondary{
+  color:black !important;
+  font-weight: 400;
+  
+}
+
+.dogp{
+  font-size: 20px;
+  font-weight: 300;
+  margin-bottom: 3em;
+}
+.texter{
+  display: flex;
+  text-align: center;
+}
+.container2{
+  padding-top: 3em;
+  padding-bottom: 3em;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.dog{
+  margin-top: 3em;
+  border-radius: 50%;
+  
+}
+.dogpg{
+  justify-self: space-between;
+  
+  padding-left: 50px;
+ 
+}
+@media (max-width: 900px){
+  .photo{
+    display: grid;
+  }
+  .dogpg{
+    width: 150px;
+    justify-self: center;
+    padding-left: 0%;
+
+  }
+}
+  
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
